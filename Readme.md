@@ -4,11 +4,14 @@ A To do's List web application built using React, Redux, React Router, and Mater
 
 ## Features
 
-- User authentication (Sign up and Log in with validations)
-- To do's list management (CRUD operations)
-- Profile management
-- Material UI design
-- React Router for navigation
+
+- User authentication includes Sign Up and Log In functionality with validations.
+- Multiple users can Sign up, log in, and manage their own to-do task lists.
+- To-do list management supports full CRUD operations (Create, Read, Update, Delete), specific to the logged-in user.
+- Profile management allows users to view their personal information.
+- The application uses Material UI for modern and responsive design.
+- Navigation is handled using React Router, with both public and protected routes implemented for security.
+- Data persistence is ensured, so user data remains intact even after logging out or closing the browser.
 
 ## Prerequisites
 
